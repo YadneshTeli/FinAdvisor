@@ -21,6 +21,8 @@
 
 ## 1. Problem Statement
 
+Many individuals lack financial literacy, especially from rural or digitally underserved areas. They struggle with understanding UPI, online scams, interest rates, or personal budgeting. This can lead to fraud, poor money management, or digital exclusion.
+
 Indian citizens are adopting digital payments at record speed, yet large sections of the population lack clear, trustworthy guidance on:
 
 * Safely using UPI, IMPS, NEFT and RuPay cards.
@@ -62,8 +64,17 @@ Cloud Object Storage  ← project assets & logs
 Deployment Space (Online AI Service)
 ```
 
+## 5. Technologies Used
 
-## 5. IBM Cloud Services Used
+- IBM Watsonx.ai Studio
+- IBM Granite Foundation Model (LLM)
+- Vector Index for Retrieval-Augmented Generation
+- PDF documents from RBI/NPCI & other related sourses
+- NLP (Natural Language Processing)
+- IBM Cloud Object Storage
+
+
+## 6. IBM Cloud Services Used
 
 | Service | Purpose | Plan |
 | :-- | :-- | :-- |
@@ -121,6 +132,17 @@ Clone the repo, create a virtual-env, install deps and run `python src/ingest.py
 
 Include the `Authorization: Bearer <IAM_TOKEN>` header obtained via IBM Cloud CLI or API.
 
+##  End Users
+
+- General public seeking financial clarity  
+- Rural and semi-urban citizens  
+- Students and young professionals  
+- First-time UPI and digital banking users  
+- NGOs and government outreach programs  
+- Customer service centers
+- Self-Help Groups / Women’s Collectives
+- Educators / Institutions
+
 ## 10. Customisation
 
 * **Add Documents** – upload more PDFs and rebuild the vector index.
@@ -136,21 +158,32 @@ Include the `Authorization: Bearer <IAM_TOKEN>` header obtained via IBM Cloud CL
 * Real-time fraud-alert feed integration.
 * Analytics dashboard for usage \& impact metrics.
 
+## 🛣️ Future Scope
 
-## 12. Contributing
+- WhatsApp or mobile app integration  
+- Speech-to-text input for voice-driven queries  
+- Automatic monthly report generation  
+- Region-specific financial policy updates  
+- Multilingual expansion with Watson Language Translator
 
-Pull requests are welcome! Please open an issue first to discuss major changes.
-Make sure your code follows **PEP-8** and includes unit tests.
+## 🔗 Useful Links
+
+- [IBM Cloud Lite](https://cloud.ibm.com/registration)
+- [IBM Watsonx.ai](https://www.ibm.com/products/watsonx-ai)
+- [RBI Official Website](https://www.rbi.org.in)
+- [NPCI FAQs](https://www.npci.org.in/what-we-do/upi/faqs)
+- [IBM SkillsBuild](https://skillsbuild.org)
 
 ## 13. License
 
-This project is released under the MIT License – see `LICENSE` for details.
+This project is released under the [MIT License](LICENSE). – see `LICENSE` for details.
 
 ## 14. Contact
 
 *Project Lead* – \<Your Name\>
 *Email* – \<your-email@example.com\>
 
+Created with 💙 during the IBM SkillsBuild for Academia Internship 2025 by **Yadnesh Teli**
 > *Built with ☁️ \& ♥ on IBM Cloud Lite*
 
 <div style="text-align: center">⁂</div>
