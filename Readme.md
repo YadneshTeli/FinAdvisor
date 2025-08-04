@@ -180,18 +180,8 @@ This project is released under the [MIT License](LICENSE). – see `LICENSE` for
 
 ## 14. Contact
 
-*Project Lead* – \<Your Name\>
-*Email* – \<your-email@example.com\>
+*Project Lead* – \<Yadnesh Teli\>
+*Email* – \<yadnesht909@gmail.com\>
 
 Created with 💙 during the IBM SkillsBuild for Academia Internship 2025 by **Yadnesh Teli**
 > *Built with ☁️ \& ♥ on IBM Cloud Lite*
-
-<div style="text-align: center">⁂</div>
-
-[^1]: SB4Academia_Problem-Statements_2025-1.pdf
-
-[^2]: Agentic-AI-on-IBM-Cloud-2.pdf
-
-[^3]: Project-template-for-AI-Agent-case-study.pptx
-
-
