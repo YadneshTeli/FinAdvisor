@@ -165,7 +165,7 @@ This project is released under the [MIT License](LICENSE). – see `LICENSE` for
 ## 15. Contact
 
 *Project Lead* – \<Yadnesh Teli\>
-*[Email]* – (yadnesht909@gmail.com)
+*[Email](yadnesht909@gmail.com)*
 
 Created with 💙 during the IBM SkillsBuild for Academia Internship 2025 by **Yadnesh Teli**
 > *Built with ☁️ \& ♥ on IBM Cloud Lite*
