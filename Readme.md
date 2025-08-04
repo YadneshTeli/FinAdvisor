@@ -83,27 +83,11 @@ Deployment Space (Online AI Service)
 | **Cloud Object Storage** | Store PDFs, chat logs, vector files | Lite |
 | **Deployment Space** | One-click REST deployment | Lite |
 
-## 6. Prerequisites
+## 7. Prerequisites
 
 * IBM Cloud Lite account.
 * IBM Cloud CLI (optional for API calls).
 * Python 3.10+ for local utilities (vectorisation, testing).
-
-
-## 7. Local Setup \& Project Structure
-
-```text
-finadvisor/
-├─ data/               # RBI / NPCI PDFs
-├─ notebooks/          # Optional Jupyter analysis
-├─ src/
-│  ├─ ingest.py        # Convert PDFs → chunks
-│  ├─ vectorise.py     # Create local vector store (dev only)
-│  └─ api_demo.py      # Sample REST consumer script
-└─ README.md
-```
-
-Clone the repo, create a virtual-env, install deps and run `python src/ingest.py` to reproduce the local vector store for testing.
 
 ## 8. Deploying on IBM Cloud
 
@@ -158,7 +142,7 @@ Include the `Authorization: Bearer <IAM_TOKEN>` header obtained via IBM Cloud CL
 * Real-time fraud-alert feed integration.
 * Analytics dashboard for usage \& impact metrics.
 
-## 🛣️ Future Scope
+## 12. Future Scope
 
 - WhatsApp or mobile app integration  
 - Speech-to-text input for voice-driven queries  
@@ -166,7 +150,7 @@ Include the `Authorization: Bearer <IAM_TOKEN>` header obtained via IBM Cloud CL
 - Region-specific financial policy updates  
 - Multilingual expansion with Watson Language Translator
 
-## 🔗 Useful Links
+## 13. Useful Links
 
 - [IBM Cloud Lite](https://cloud.ibm.com/registration)
 - [IBM Watsonx.ai](https://www.ibm.com/products/watsonx-ai)
@@ -174,14 +158,14 @@ Include the `Authorization: Bearer <IAM_TOKEN>` header obtained via IBM Cloud CL
 - [NPCI FAQs](https://www.npci.org.in/what-we-do/upi/faqs)
 - [IBM SkillsBuild](https://skillsbuild.org)
 
-## 13. License
+## 14. License
 
 This project is released under the [MIT License](LICENSE). – see `LICENSE` for details.
 
-## 14. Contact
+## 15. Contact
 
 *Project Lead* – \<Yadnesh Teli\>
-*Email* – \<yadnesht909@gmail.com\>
+*[Email]* – (yadnesht909@gmail.com)
 
 Created with 💙 during the IBM SkillsBuild for Academia Internship 2025 by **Yadnesh Teli**
 > *Built with ☁️ \& ♥ on IBM Cloud Lite*
